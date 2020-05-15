@@ -1,0 +1,25 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+    <category>
+
+
+        <pattern>LOAD AIML B</pattern>
+
+        <template>
+               <learn>basic_chat.aiml</learn>
+               <learn>ai.aiml</learn>
+               <learn>bot_profile.aiml</learn>
+               <learn>inquiry.aiml</learn>
+               <learn>jokes.aiml</learn>
+               <learn>random_lines.aiml</learn>
+               <learn>eateries.aiml</learn>
+               <learn>wordgame.aiml</learn>
+               <learnf>learn.aiml</learnf>
+
+
+
+        </template>
+
+    </category>
+
+</aiml>
