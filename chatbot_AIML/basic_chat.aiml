@@ -1,0 +1,97 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+
+    <category>
+        <pattern>HELLO</pattern>
+        <template>
+            Well, hello! I'm chitti your cammpus foodie expert!
+            I can search on google for you, show you around different eateries in campus,
+            and if you get bored i can make you laugh with my jokes or we can play my favourite game :)
+            try typing:
+            'what are the eateries of IITK'.
+            'wordplay'
+            'jokes'
+            'google' followed by thing you want me to search.
+            'images of' followed by thing of which you want to see images.
+            'whats the weather in'/'whats the humidity in'/'whats the temperature in' followed by place name.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WAKE UP *</pattern>
+        <template>
+          <srai>HELLO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>BYE</pattern>
+        <template>
+            bye nice talking to you!
+        </template>
+    </category>
+
+    <category>
+        <pattern>HI</pattern>
+        <template>
+          <srai>HELLO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT ARE YOU</pattern>
+        <template>
+          I'm chitti your cammpus foodie expert!
+          I can search on google for you, show you around different eateries in campus,
+          and if you get bored i can make you laugh with my jokes or we can play my favourite game :) and even tell you weather details!
+          try typing:
+          'what are the eateries of IITK'.
+          'wordplay'
+          'jokes'
+          'google' followed by thing you want me to search.
+          'images of' followed by thing of which you want to see images.
+          'whats the weather in'/'whats the humidity in'/'whats the temperature in' followed by place name.
+
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT * YOU DO</pattern>
+        <template>
+
+          I can search on google for you, show you around different eateries in campus,
+          and if you get bored i can make you laugh with my jokes or we can play my favourite game :)
+          try typing:
+          'what are the eateries of IITK'.
+          'wordplay'
+          'jokes'
+          'google' followed by thing you want me to search.
+          'images of' followed by thing of which you want to see images.
+          'whats the weather in'/'whats the humidity in'/'whats the temperature in' followed by place name.
+        </template>
+    </category>
+
+
+    <category>
+    	 <pattern>YES</pattern>
+	 <template>
+	    okay
+	 </template>
+    </category>
+    <category>
+        <pattern>ONE TIME I *</pattern>
+        <template>
+          <random>
+            <li>I'm listening go on.</li>
+            <li>Can you be more specific.</li>
+            <li>Ooh I did not know that.</li>
+            <li>Are you telling the truth?</li>
+            <li>Sorry I don't know what that means.</li>
+            <li>Can you try to tell me that another way.</li>
+            <li>Tell me what is it?</li>
+          </random>
+        </template>
+    </category>
+
+
+</aiml>
